@@ -114,16 +114,7 @@ class _NewTransactionState extends State<NewTransaction> {
             Container(
               margin: EdgeInsets.only(top: 10),
               alignment: Alignment.centerLeft,
-              child:
-                  // Expanded(
-                  //   child: Text(
-                  //     _selectedDate == null
-                  //         ? 'Tanggal Kosong'
-                  //         : DateFormat('E, dd MMM y').format(_selectedDate),
-                  //     style: TextStyle(color: Colors.white),
-                  //   ),
-                  // ),
-                  FlatButton(
+              child: FlatButton(
                 padding: EdgeInsets.only(left: 0),
                 textColor: Theme.of(context).primaryColor,
                 onPressed: _presentDatePicker,
